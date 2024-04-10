@@ -14,8 +14,23 @@ Substitute the values in the distance formula
 using the print function, display the distance between the two points.
 ### Step 5: 
 End the program.
+
+NAME ANBU SELVAN S
+ 
+REG NO 212223110003
+
+DEP CSE(IOT)
+
 ### PROGRAM:
-![Screenshot 2024-03-12 140716](https://github.com/AnbuSelvanS7/DISTANCE-BETWEEN-TWO-POINTS/assets/151528411/d681c005-67a9-4907-83d0-a1343c8e4686)
+```
+import math
+l1=[4,2]
+l2=[10,6]
+d=math.sqrt(((l2[0]-l1[0])**2)+((l2[1]-l1[1])**2))
+print("{:.2f}".format(d))
+```
+## OUTPUT:
+![alt text](image.png)
 
 ### RESULT:
 Thus the distance of the two points is sucessfully executed and displayed.
